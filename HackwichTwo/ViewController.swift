@@ -16,5 +16,9 @@ class ViewController: UIViewController {
     }
 
 
+    @IBAction func pressMeButtonPressed(_ sender: Any) {
+        //On button pressed, it will print "Hello World"
+        print("Hello World")
+    }
 }
 
